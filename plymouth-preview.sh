@@ -8,10 +8,10 @@
 # modified by Sébastien Bouchard <sebastjava@hotmail.ca>
 
 chk_root () {
-  if [ ! $( id -u ) -eq 0 ]; then
-    echo; echo; echo; echo; echo "Must be run as root!"
-    exit
-  fi
+    if [ ! $( id -u ) -eq 0 ]; then
+        echo; echo; echo; echo; echo "Must be run as root!"
+        exit
+    fi
 }
 chk_root
 
