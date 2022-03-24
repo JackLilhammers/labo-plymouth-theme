@@ -8,8 +8,8 @@ echo "This installer will change your Plymouth theme, reverting to your standard
 echo "This will take a few seconds. Do not quit until you are invited to do so..."
 echo "Please enter your password for this."
 echo
-sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/mint-logo/mint-logo.plymouth 200 &&
-sudo update-alternatives --set default.plymouth /usr/share/plymouth/themes/mint-logo/mint-logo.plymouth &&
+sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/labo-logo/labo-logo.plymouth 200 &&
+sudo update-alternatives --set default.plymouth /usr/share/plymouth/themes/labo-logo/labo-logo.plymouth &&
 sudo update-initramfs -u &&
 echo &&
 echo "Installation completed." &&
