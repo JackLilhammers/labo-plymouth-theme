@@ -172,7 +172,7 @@ fun centered_sprite(filename) {
     object.width = object.image.GetWidth ();
     object.height = object.image.GetHeight ();
     object.x = Window.GetX () + Window.GetWidth () / 2 - object.width  / 2;
-    object.y = Window.GetY () + Window.GetHeight () / 2 - object.height;
+    object.y = Window.GetY () + Window.GetHeight () / 2 - object.height / 2;
     object.sprite.SetX (object.x);
     object.sprite.SetY (object.y);
 
