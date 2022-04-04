@@ -8,9 +8,9 @@ And this logo is also subtly redesigned with the exact same line widths for both
 ![Permissions-howto](Permissions-program.png)
 
 ### How to install
-1. [Download ZIP here](https://github.com/SebastJava/plymouth-theme-mint-logo-2/archive/main.zip) (OR click on top-right green button "Code" and then click on "Download ZIP".)
+1. [Download ZIP here](https://github.com/JackLilhammers/labo-plymouth-theme/archive/main.zip) (OR click on top-right green button "Code" and then click on "Download ZIP".)
 1. Extract this entire zip.
-1. Right-click on INSTALLER.sh > Select Properties > Permissions tab > Execute: Allow executing file as program. (See screenshot) OR ELSE type `chmod +x plymouth-theme-mint-logo-2/INSTALLER.sh` in the Terminal.
+1. Right-click on INSTALLER.sh > Select Properties > Permissions tab > Execute: Allow executing file as program. (See screenshot) OR ELSE type `chmod +x labo-plymouth-theme/INSTALLER.sh` in the Terminal.
 1. Double-click on INSTALLER to run in Terminal.
 1. Restart and check the results!
 
@@ -23,10 +23,10 @@ And this logo is also subtly redesigned with the exact same line widths for both
 You can check things with this command:
 `update-alternatives --display default.plymouth`
 
-You can preview your default plymouth using the plymouth-preview script. You must run this script as root. To do so, you need to open your Terminal in this downloaded plymouth-theme-mint-logo-2 directory and run this script this way:
+You can preview your default plymouth using the plymouth-preview script. You must run this script as root. To do so, you need to open your Terminal in this downloaded /labo-plymouth-theme directory and run this script this way:
 
 ```
-cd plymouth-theme-mint-logo-2
+cd labo-plymouth-theme
 sudo ./plymouth-preview.sh
 ```
 
