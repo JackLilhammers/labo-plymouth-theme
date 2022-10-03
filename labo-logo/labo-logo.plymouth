@@ -1,8 +1,8 @@
 [Plymouth Theme]
-Name=Mint Logo
-Description=A theme that features an animated Linux Mint logo.
+Name=Labo Logo
+Description=A theme that features the Labo Metrology logo and a spinning animation.
 ModuleName=script
 
 [script]
-ImageDir=/usr/share/plymouth/themes/mint-logo-2
-ScriptFile=/usr/share/plymouth/themes/mint-logo-2/mint-logo.script
+ImageDir=/usr/share/plymouth/themes/labo-logo
+ScriptFile=/usr/share/plymouth/themes/labo-logo/labo-logo.script
